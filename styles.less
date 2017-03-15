@@ -2,6 +2,9 @@
 @color:#800080;
 @cardcolor: #c00;
 @cardtitle: #fff;
+@cardnumbersize: 30px;
+@floatright: right;
+
 h1{
 	color: @primarycolor;
 }
@@ -17,3 +20,13 @@ h3{
 .card__title {
 	color: @cardtitle;
 }
+
+.card__number {
+	background-color: #000;
+	float: @floatright;
+	height: @cardnumbersize;
+	opacity: .5;
+	text-align: center;
+	width: @cardnumbersize;
+}
+
