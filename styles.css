@@ -4,6 +4,9 @@ h1 {
 h3 {
   color: #800080;
 }
+.card {
+  margin-top: 200px;
+}
 .card__header {
   background: #c00;
 }
@@ -15,7 +18,6 @@ h3 {
   float: right;
   height: 30px;
   opacity: .5;
-  text-align: center;
   width: 30px;
 }
 .card__body {
