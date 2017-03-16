@@ -1,0 +1,18 @@
+.card {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.card__tabs {
+  padding-left: 0;
+}
+
+.card__tab {
+  display: inline-block;
+  float: none;
+  list-style: none;
+}
+
+.card__body {
+ height: 200px; 
+}
