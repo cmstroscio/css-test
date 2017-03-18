@@ -1,18 +1,24 @@
 h1 {
   color: #FF7F50;
 }
+
 h3 {
   color: #800080;
 }
+
 .card {
+  font-family: Overpass;
   margin-top: 200px;
 }
+
 .card__header {
   background: #c00;
 }
+
 .card__title {
   color: #fff;
 }
+
 .card__number {
   background-color: #000;
   float: right;

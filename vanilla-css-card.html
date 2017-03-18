@@ -1,23 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 <head>
-
-	<link rel="stylesheet" href="styles2.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles2.css" rel="stylesheet" type="text/css">
+	<link href="http://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" type="text/css">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>CSS Screen</title>
 </head>
 <body>
-<h1>Example 2</h1>
-<div>
-	<div class="card">
-		<ul class="card__tabs">
-			<li class="card__tab card__tab--title">OpenShift</li>
-			<li class="card__tab">Item</li>
-			<li class="card__tab">Item</span></li>
-			<li class="card__tab">Item</span></li>
-		</ul>
-		<div class="card__body">
-			<h2 class="card__body-heading">Panel Content</h2>
-			<p class="card__body-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio id ligula euismod consectetur. </p>
+		<div class="card">
+			<div class="card__tab-wrapper">
+				<p class="card__tab-title card__push-left">OpenShift</p><button class="card__tab" onclick="openItem(event, 'Item1')">Item</button> <button class="card__tab" onclick="openItem(event, 'Item2')">Item</button> <button class="card__tab" onclick="openItem(event, 'Item3')">Item</button>
+			</div>
+			<div class="card__body card__push-left">
+				<h2 class="card__body-heading">Panel Content</h2>
+				<p class="card__body-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis odio id ligula euismod consectetur.</p>
+				<table class="card__data">
+					<tr class="card__data-item">
+						<td class="card__key">Case ID:</td>
+						<td class="card__value">Case 00002b</td>
+					</tr>
+					<tr class="card__data-item">
+						<td class="card__key">Case Name:</td>
+						<td class="card__value">Development Case Instance</td>
+					</tr>
+					<tr class="card__data-item">
+						<td class="card__key">Status:</td>
+						<td class="card__value"><span class="card__status-active">Active</span></td>
+					</tr>
+					<tr class="card__data-item">
+						<td class="card__key">State:</td>
+						<td class="card__value">Started on March 16th, 2017</td>
+					</tr>
+				</table>
+			</div>
 		</div>
-	</div>
-</div>
+
 </body>
+</html>
