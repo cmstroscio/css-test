@@ -14,7 +14,7 @@ body {
   background-color: #fff;
   font-family: overpass;
   margin: 0 auto;
-  width: 40%;
+  width: 30%;
 }
 
 .card:after {
@@ -41,6 +41,7 @@ body {
 
 .card__tab {
     background-color: inherit;
+    border: .1px solid #ededed;
     color: #fff;
     float: right;
     font-family: overpass;
@@ -81,6 +82,7 @@ body {
 .card__data {
   line-height: 2;
   list-style: none;
+  padding-bottom: 22px;
   padding-left: 0;
 }  
 
