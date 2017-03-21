@@ -2,22 +2,19 @@
   font-family: Overpass;
   margin-top: 200px;
 }
-
 .card__header {
   background: #c00;
 }
-
 .card__title {
   color: #fff;
   line-height: 1.5;
   margin-left: 7px;
 }
-
 .card__number {
   background-color: #470000;
   bottom: 3px;
   float: right;
-  height: 22px;
+  height: 25px;
   padding-top: 2px;
   position: relative;
   right: 7px;
@@ -26,5 +23,5 @@
 .card__body {
   background-color: #fff;
   box-shadow: 0px 2px 5px #888888;
-  height: 120px;
+  height: 100px;
 }

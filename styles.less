@@ -1,42 +1,33 @@
-@primarycolor: #FF7F50;
-@color:#800080;
+// less variables
 @cardcolor: #c00;
 @cardtitle: #fff;
-@cardnumbersize: 30px;
+@cardnumbersize: 25px;
 @floatright: right;
 
-h1{
-	color: @primarycolor;
-}
-
-h3{
-	color: @color;
-}
-
 .card {
- margin-top: 200px;
+  font-family: Overpass;
+  margin-top: 200px;
 }
-
 .card__header {
-	background: @cardcolor;
+  background: @cardcolor;
 }
-
 .card__title {
-	color: @cardtitle;
+  color: @cardtitle;
+  line-height: 1.5;
+  margin-left: 7px;
 }
-
 .card__number {
-	background-color: #000;
-	float: @floatright;
-	height: @cardnumbersize;
-	opacity: .5;
-	// text-align: center;
-	width: @cardnumbersize;
+  background-color: #470000;
+  bottom: 3px;
+  float: @floatright;
+  height: @cardnumbersize;
+  padding-top: 2px;
+  position: relative;
+  right: 7px;
+  width: @cardnumbersize;
 }
-
 .card__body {
-	background-color: #fff;
-	box-shadow: 10px 10px 5px #888888;
-	height: 100px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px #888888;
+  height: 100px;
 }
-
