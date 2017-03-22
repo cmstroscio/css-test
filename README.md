@@ -1,2 +1,3 @@
 # css-test
-tabs using bootstrap and less
+card using bootstrap and less
+tabs using vanilla css
