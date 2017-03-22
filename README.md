@@ -1,3 +1,3 @@
 # css-test
-card using bootstrap and less
-tabs using vanilla css
+card using bootstrap and less (index.html)
+tabs using vanilla css (vanilla-css-card.html)
